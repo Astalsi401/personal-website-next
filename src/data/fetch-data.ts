@@ -2,7 +2,6 @@ import { AxiosInstance } from "axios";
 import { HttpMethod } from "./http-method";
 import { API_ENDPOINTS } from "./endpoints";
 import type {
-  ApiResponse,
   AuthResponse,
   LoginUserInput,
   Product,
