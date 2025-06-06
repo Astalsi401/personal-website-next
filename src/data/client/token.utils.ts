@@ -1,5 +1,5 @@
-import { ConfigValue } from "@/config";
 import Cookies from "js-cookie";
+import { ConfigValue } from "@/config";
 
 export const AUTH_TOKEN_KEY = ConfigValue.AUTH_TOKEN_KEY;
 
