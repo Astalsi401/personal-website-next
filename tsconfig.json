@@ -19,6 +19,8 @@
       }
     ],
     "paths": {
+      "@components/dashboard/*": ["./src/components/dashboard/*"],
+      "@components/ui/*": ["./src/components/ui/*"],
       "@/*": ["./src/*"]
     }
   },
