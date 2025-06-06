@@ -1,4 +1,6 @@
+import { Routes } from "@/config/routes";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -49,6 +51,20 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div className="flex gap-5 mx-auto">
+          <Link
+            className="block rounded-sm bg-white/10 p-2.5 hover:bg-white/20"
+            href={Routes.public.testServer}
+          >
+            Server Test
+          </Link>
+          <Link
+            className="block rounded-sm bg-white/10 p-2.5 hover:bg-white/20"
+            href={Routes.public.testClient}
+          >
+            Client Test
+          </Link>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

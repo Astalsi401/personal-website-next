@@ -5,6 +5,8 @@ export const Routes = {
   },
   public: {
     home: "/",
+    testServer: "/test-server",
+    testClient: "/test-client",
     notFound: "/404",
   },
   private: {

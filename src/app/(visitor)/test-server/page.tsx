@@ -1,6 +1,6 @@
 import { serverFetch } from "@/data/server";
 
-export default async function TestPage() {
+export default async function TestServerPage() {
   const products = await serverFetch.test.products();
   return (
     <div>
